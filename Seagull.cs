@@ -13,10 +13,7 @@ namespace Zoological_Zaniness
             Console.WriteLine("You can't catch me! Because I'm a seagull");
         }
 
-        public void Fly()
-        {
-            Console.WriteLine("I'm in the air! Because I'm a seagull");
-        }
+        public void Fly() => Console.WriteLine("I'm in the air! Because I'm a seagull");
 
         public int MaximumDepth { get; } = 10;
 
